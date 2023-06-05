@@ -1,7 +1,7 @@
 # bmp2pcg
 16色のビットマップファイルからPCG用のアセンブラソースを生成するツール<br>
 
-# 使用方法
+### 使用方法
 bmp2pcg <in:BITMAP FILE NAME> <out:PATTERN FILE NAME> <out:COLOR FILE NAME> [START CHAR CODE] [START BLOCK NO]<br>
 <br>
   <in:BITMAP FILE NAME>		入力するビットマップファイル名(256x192までの8の倍数のサイズ)<br>
