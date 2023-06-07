@@ -98,7 +98,9 @@ int main(int argc, char* argv[])
 	printf("INPUT FILE INFO: width=%d, height=%d, bits=%d, colors=%d, compress=%d\n", info_header.width, info_header.height, (int)info_header.bits, info_header.cnum, info_header.ctype);
 
 	ret_code++;
-	if (info_header.width > 256 || info_header.height > 192 || info_header.width % 8 != 0 || info_header.height % 8 != 0)
+	// 画像サイズのチェック
+//	if (info_header.width > 256 || info_header.height > 192 || info_header.width % 8 != 0 || info_header.height % 8 != 0)
+	if (info_header.width % 8 != 0 || info_header.height % 8 != 0)
 	{
 		fprintf(stderr, "ERROR: INVALID BITMAP WIDTH OR HEIGHT.\n");
 		goto LABEL_END;
