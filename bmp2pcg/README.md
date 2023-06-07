@@ -12,3 +12,7 @@ bmp2pcg <in:BITMAP FILE NAME> <out:PATTERN FILE NAME> <out:COLOR FILE NAME> [STA
 <br>
 ex.<br>
   bmp2pcg example.bmp example_pat.asm example_col.asm<br>
+
+### 変更履歴
+#### 2023.06.07
+* 画像の大きさの制限をやめました。8の倍数かどうかだけチェックしてます。
