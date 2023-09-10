@@ -14,3 +14,5 @@ ex.<br>
 #### xxxx.xx.xx
 * xxxxx
 
+![sprite_1](https://github.com/chikuwa-empire/msx-tool/assets/124578804/26111a5f-61e6-4635-b93e-1c4d9351d4fa)
+![sprite_2](https://github.com/chikuwa-empire/msx-tool/assets/124578804/d1dc9de8-b944-47fa-ac27-d109c4751375)
